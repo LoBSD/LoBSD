@@ -10,3 +10,8 @@ LoBSD systems:
 * [ψ](src/Systems/ψ/) – [Speech synthesis](src/Systems/ψ/README.md)
 * [δ](src/Systems/δ/) – [Computer Vision (CV)](src/Systems/δ/README.md)
 * [θ](src/Systems/θ/) – [Artificial Intelligence (AI)](src/Systems/θ/README.md)
+
+## Contributing
+
+The LittleOwlBSD Project strongly prefers that new code be provided
+under the terms of the ISC license.
