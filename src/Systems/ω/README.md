@@ -1,3 +1,3 @@
-# LoBSD System θ
+# LoBSD System ω
 
 Speech synthesis
