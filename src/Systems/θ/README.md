@@ -1,3 +1,3 @@
 # LoBSD System θ
 
-Artificial Intelligence (AI)
+Speech synthesis
