@@ -7,7 +7,7 @@ LoBSD systems:
 * [χ](src/Systems/χ/) – [Graphical User Interface (GUI)](src/Systems/χ/README.md)
 * [π](src/Systems/π/) – [Natural Language Processing (NLP)](src/Systems/π/README.md)
 * [φ](src/Systems/φ/) – [Voice User Interface (VUI)](src/Systems/φ/README.md)
-* [θ](src/Systems/θ/) – [Speech synthesis](src/Systems/θ/README.md)
+* [ω](src/Systems/ω/) – [Speech synthesis](src/Systems/ω/README.md)
 * [δ](src/Systems/δ/) – [Computer Vision (CV)](src/Systems/δ/README.md)
 * [α](src/Systems/α/) – [Artificial Intelligence (AI)](src/Systems/α/README.md)
 
