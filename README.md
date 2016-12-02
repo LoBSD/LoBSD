@@ -1,6 +1,6 @@
 # LoBSD
 
-LoBSD is an operating system.
+LoBSD is an operating system developed by the LittleOwlBSD Project.
 
 ## LoBSD systems
 
