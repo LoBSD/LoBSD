@@ -1,0 +1,72 @@
+.\"
+.\" Copyright (c) 2016 Erik Nordstrøm <erikn@LoBSD.org>
+.\" 
+.\" Permission to use, copy, modify, and/or distribute this software for any
+.\" purpose with or without fee is hereby granted, provided that the above
+.\" copyright notice and this permission notice appear in all copies.
+.\" 
+.\" THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+.\" WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+.\" MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+.\" ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+.\" WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+.\" ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+.\" OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+.\"
+.Dd $Mdocdate: December 2 2016 $
+.Dt UH 1
+.Os
+.Sh NAME
+.Nm uh
+.Nd General purpose text editor
+.Sh SYNOPSIS
+.Nm uh
+.Op Ar file
+.Sh DESCRIPTION
+The
+.Nm
+utility is a text editor inspired by
+.Xr vim 1
+that integrates loosely with the
+.Xr wit 1
+version control system and tightly with the
+.Xr lmake 1
+build system.
+.Sh FILES
+.Nm
+does not use run command files or other forms of configuration files
+("dotfiles").  Instead, editor configuration and customization is done
+at compile time.  On multi-user systems where per-user configuration and
+customization is desired, users may simply build
+.Nm
+from source -- it's open source after all -- and install it with prefix set to
+.Ev HOME .
+.Sh EXIT STATUS
+Being a keyboard-interactive application, most warnings and errors
+will not lead to the termination of
+.Nm .
+Consequently, only terminal errors or signals will lead to non-zero exit status.
+.Sh SEE ALSO
+.Xr lmake 1 ,
+.Xr wit 1
+.Sh HISTORY
+The
+.Nm
+utility was inspired by
+.Xr vim 1 ,
+and was written because the author of
+.Nm
+wanted some capabilities that were not provided by said editor,
+and which were perceived as painful to implement using Vimscript,
+even if most of the functionality were implemented in external
+utilities.
+The name of the
+.Nm
+utility stems from the observation that often times when you are creating
+or modifying a file, you find yourself thinking or exclaiming "uh" while
+you are trying to decide on what to type.
+.Sh AUTHORS
+The
+.Nm
+reference was written by
+.An Erik Nordstrøm Aq Mt erikn@LoBSD.org .
