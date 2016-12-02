@@ -2,14 +2,14 @@
 
 LoBSD systems:
 
-* [μ](src/Systems/μ/) – [Hardware Abstraction Layer (HAL)](src/Systems/μ/README.md)
-* [λ](src/Systems/λ/) – [Character User Interface (CUI)](src/Systems/λ/README.md)
-* [χ](src/Systems/χ/) – [Graphical User Interface (GUI)](src/Systems/χ/README.md)
-* [π](src/Systems/π/) – [Natural Language Processing (NLP)](src/Systems/π/README.md)
-* [φ](src/Systems/φ/) – [Voice User Interface (VUI)](src/Systems/φ/README.md)
-* [ω](src/Systems/ω/) – [Speech synthesis](src/Systems/ω/README.md)
-* [δ](src/Systems/δ/) – [Computer Vision (CV)](src/Systems/δ/README.md)
-* [α](src/Systems/α/) – [Artificial Intelligence (AI)](src/Systems/α/README.md)
+* [μ](src/Systems/μ/) – [Hardware Abstraction Layer (HAL)](src/Systems/μ/#readme)
+* [λ](src/Systems/λ/) – [Character User Interface (CUI)](src/Systems/λ/#readme)
+* [χ](src/Systems/χ/) – [Graphical User Interface (GUI)](src/Systems/χ/#readme)
+* [π](src/Systems/π/) – [Natural Language Processing (NLP)](src/Systems/π/#readme)
+* [φ](src/Systems/φ/) – [Voice User Interface (VUI)](src/Systems/φ/#readme)
+* [ω](src/Systems/ω/) – [Speech synthesis](src/Systems/ω/#readme)
+* [δ](src/Systems/δ/) – [Computer Vision (CV)](src/Systems/δ/#readme)
+* [α](src/Systems/α/) – [Artificial Intelligence (AI)](src/Systems/α/#readme)
 
 ## Contributing
 
