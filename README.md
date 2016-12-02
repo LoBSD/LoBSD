@@ -1,6 +1,8 @@
 # LoBSD
 
-LoBSD systems:
+LoBSD is an operating system.
+
+## LoBSD systems
 
 * [μ](src/Systems/μ/) – [Hardware Abstraction Layer (HAL)](src/Systems/μ/#readme)
 * [λ](src/Systems/λ/) – [Character User Interface (CUI)](src/Systems/λ/#readme)
