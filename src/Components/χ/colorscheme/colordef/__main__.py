@@ -1,7 +1,7 @@
 #!python36
 
 #
-# Copyright (c) 2016 Erik Nordstrøm <erik@nordstroem.no>
+# Copyright (c) 2016 Erik Nordstrøm <erikn@LoBSD.org>
 #
 # Permission to use, copy, modify, and/or distribute this software for any
 # purpose with or without fee is hereby granted, provided that the above
